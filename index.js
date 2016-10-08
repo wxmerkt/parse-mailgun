@@ -38,6 +38,8 @@ var Mailgun = {
 			success: successCallback,
 			error: errorCallback
 		}).then(successCallback, errorCallback);
+		
+		return p;
 	}
 };
 
